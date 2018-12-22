@@ -1,0 +1,157 @@
+# OS X
+.DS_Store
+
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+profile
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+
+# Bundler
+.bundle
+
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+
+Carthage/Build
+
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
+# 
+# Note: if you ignore the Pods directory, make sure to uncomment
+# `pod install` in .travis.yml
+#
+# Pods/
+Example/Pods/Manifest.lock
+Example/Pods/Local Podspecs/MMRouter.podspec.json
+Example/Pods/Pods.xcodeproj/project.pbxproj
+Example/Pods/Target Support Files/MMRouter/MMRouter-dummy.m
+Example/Pods/Target Support Files/MMRouter/MMRouter-prefix.pch
+Example/Pods/Target Support Files/MMRouter/MMRouter-umbrella.h
+Example/Pods/Target Support Files/MMRouter/MMRouter.modulemap
+Example/Pods/Target Support Files/MMRouter/MMRouter.xcconfig
+Example/Pods/Target Support Files/Pods-MMRouter_Example/Pods-MMRouter_Example-acknowledgements.markdown
+Example/Pods/Target Support Files/Pods-MMRouter_Example/Pods-MMRouter_Example-acknowledgements.plist
+Example/Pods/Target Support Files/Pods-MMRouter_Example/Pods-MMRouter_Example-dummy.m
+Example/Pods/Target Support Files/Pods-MMRouter_Example/Pods-MMRouter_Example-frameworks.sh
+Example/Pods/Target Support Files/Pods-MMRouter_Example/Pods-MMRouter_Example-resources.sh
+Example/Pods/Target Support Files/Pods-MMRouter_Example/Pods-MMRouter_Example-umbrella.h
+Example/Pods/Target Support Files/Pods-MMRouter_Example/Pods-MMRouter_Example.debug.xcconfig
+Example/Pods/Target Support Files/Pods-MMRouter_Example/Pods-MMRouter_Example.modulemap
+Example/Pods/Target Support Files/Pods-MMRouter_Example/Pods-MMRouter_Example.release.xcconfig
+Example/Pods/Target Support Files/Pods-MMRouter_Tests/Pods-MMRouter_Tests-acknowledgements.markdown
+Example/Pods/Target Support Files/Pods-MMRouter_Tests/Pods-MMRouter_Tests-acknowledgements.plist
+Example/Pods/Target Support Files/Pods-MMRouter_Tests/Pods-MMRouter_Tests-dummy.m
+Example/Pods/Target Support Files/Pods-MMRouter_Tests/Pods-MMRouter_Tests-frameworks.sh
+Example/Pods/Target Support Files/Pods-MMRouter_Tests/Pods-MMRouter_Tests-resources.sh
+Example/Pods/Target Support Files/Pods-MMRouter_Tests/Pods-MMRouter_Tests-umbrella.h
+Example/Pods/Target Support Files/Pods-MMRouter_Tests/Pods-MMRouter_Tests.debug.xcconfig
+Example/Pods/Target Support Files/Pods-MMRouter_Tests/Pods-MMRouter_Tests.modulemap
+Example/Pods/Target Support Files/Pods-MMRouter_Tests/Pods-MMRouter_Tests.release.xcconfig
+Example/Pods/Target Support Files/YYCategories/YYCategories-dummy.m
+Example/Pods/Target Support Files/YYCategories/YYCategories-prefix.pch
+Example/Pods/Target Support Files/YYCategories/YYCategories-umbrella.h
+Example/Pods/Target Support Files/YYCategories/YYCategories.modulemap
+Example/Podfile.lock
+Example/Pods/Target Support Files/YYCategories/YYCategories.xcconfig
+Example/Pods/Target Support Files/YYModel/YYModel-dummy.m
+Example/Pods/Target Support Files/YYModel/YYModel-prefix.pch
+Example/Pods/Target Support Files/YYModel/YYModel-umbrella.h
+Example/Pods/Target Support Files/YYModel/YYModel.modulemap
+Example/Pods/Target Support Files/YYModel/YYModel.xcconfig
+Example/Pods/YYCategories/YYCategories/YYCategories.h
+Example/Pods/YYCategories/YYCategories/YYCategoriesMacro.h
+Example/Pods/YYCategories/YYCategories/Foundation/NSArray+YYAdd.h
+Example/Pods/YYCategories/YYCategories/Foundation/NSArray+YYAdd.m
+Example/Pods/YYCategories/YYCategories/Foundation/NSBundle+YYAdd.h
+Example/Pods/YYCategories/YYCategories/Foundation/NSBundle+YYAdd.m
+Example/Pods/YYCategories/YYCategories/Foundation/NSData+YYAdd.h
+Example/Pods/YYCategories/YYCategories/Foundation/NSData+YYAdd.m
+Example/Pods/YYCategories/YYCategories/Foundation/NSDate+YYAdd.h
+Example/Pods/YYCategories/YYCategories/Foundation/NSDate+YYAdd.m
+Example/Pods/YYCategories/YYCategories/Foundation/NSDictionary+YYAdd.h
+Example/Pods/YYCategories/YYCategories/Foundation/NSDictionary+YYAdd.m
+Example/Pods/YYCategories/YYCategories/Foundation/NSKeyedUnarchiver+YYAdd.h
+Example/Pods/YYCategories/YYCategories/Foundation/NSKeyedUnarchiver+YYAdd.m
+Example/Pods/YYCategories/YYCategories/Foundation/NSNotificationCenter+YYAdd.h
+Example/Pods/YYCategories/YYCategories/Foundation/NSNotificationCenter+YYAdd.m
+Example/Pods/YYCategories/YYCategories/Foundation/NSNumber+YYAdd.h
+Example/Pods/YYCategories/YYCategories/Foundation/NSNumber+YYAdd.m
+Example/Pods/YYCategories/YYCategories/Foundation/NSObject+YYAdd.h
+Example/Pods/YYCategories/YYCategories/Foundation/NSObject+YYAdd.m
+Example/Pods/YYCategories/YYCategories/Foundation/NSObject+YYAddForARC.h
+Example/Pods/YYCategories/YYCategories/Foundation/NSObject+YYAddForARC.m
+Example/Pods/YYCategories/YYCategories/Foundation/NSObject+YYAddForKVO.h
+Example/Pods/YYCategories/YYCategories/Foundation/NSObject+YYAddForKVO.m
+Example/Pods/YYCategories/YYCategories/Foundation/NSString+YYAdd.h
+Example/Pods/YYCategories/YYCategories/Foundation/NSString+YYAdd.m
+Example/Pods/YYCategories/YYCategories/Foundation/NSThread+YYAdd.h
+Example/Pods/YYCategories/YYCategories/Foundation/NSThread+YYAdd.m
+Example/Pods/YYCategories/YYCategories/Foundation/NSTimer+YYAdd.h
+Example/Pods/YYCategories/YYCategories/Foundation/NSTimer+YYAdd.m
+Example/Pods/YYCategories/YYCategories/Quartz/CALayer+YYAdd.h
+Example/Pods/YYCategories/YYCategories/Quartz/CALayer+YYAdd.m
+Example/Pods/YYCategories/YYCategories/Quartz/YYCGUtilities.h
+Example/Pods/YYCategories/YYCategories/Quartz/YYCGUtilities.m
+Example/Pods/YYCategories/YYCategories/UIKit/UIApplication+YYAdd.h
+Example/Pods/YYCategories/YYCategories/UIKit/UIApplication+YYAdd.m
+Example/Pods/YYCategories/YYCategories/UIKit/UIBarButtonItem+YYAdd.m
+Example/Pods/YYCategories/YYCategories/UIKit/UIBezierPath+YYAdd.h
+Example/Pods/YYCategories/YYCategories/UIKit/UIBezierPath+YYAdd.m
+Example/Pods/YYCategories/YYCategories/UIKit/UIColor+YYAdd.h
+Example/Pods/YYCategories/YYCategories/UIKit/UIColor+YYAdd.m
+Example/Pods/YYCategories/YYCategories/UIKit/UIControl+YYAdd.h
+Example/Pods/YYCategories/YYCategories/UIKit/UIControl+YYAdd.m
+Example/Pods/YYCategories/YYCategories/UIKit/UIDevice+YYAdd.h
+Example/Pods/YYCategories/YYCategories/UIKit/UIDevice+YYAdd.m
+Example/Pods/YYCategories/YYCategories/UIKit/UIFont+YYAdd.h
+Example/Pods/YYCategories/YYCategories/UIKit/UIFont+YYAdd.m
+Example/Pods/YYCategories/YYCategories/UIKit/UIGestureRecognizer+YYAdd.h
+Example/Pods/YYCategories/YYCategories/UIKit/UIGestureRecognizer+YYAdd.m
+Example/Pods/YYCategories/YYCategories/UIKit/UIImage+YYAdd.h
+Example/Pods/YYCategories/YYCategories/UIKit/UIImage+YYAdd.m
+Example/Pods/YYCategories/YYCategories/UIKit/UIScreen+YYAdd.h
+Example/Pods/YYCategories/YYCategories/UIKit/UIScreen+YYAdd.m
+Example/Pods/YYCategories/YYCategories/UIKit/UIScrollView+YYAdd.m
+Example/Pods/YYCategories/YYCategories/UIKit/UITableView+YYAdd.h
+Example/Pods/YYCategories/YYCategories/UIKit/UITableView+YYAdd.m
+Example/Pods/YYCategories/YYCategories/UIKit/UITextField+YYAdd.h
+Example/Pods/YYCategories/YYCategories/UIKit/UITextField+YYAdd.m
+Example/Pods/YYCategories/YYCategories/UIKit/UIView+YYAdd.h
+Example/Pods/YYCategories/YYCategories/UIKit/UIView+YYAdd.m
+Example/Pods/YYModel/YYModel/NSObject+YYModel.h
+Example/Pods/YYModel/YYModel/NSObject+YYModel.m
+Example/Pods/YYModel/YYModel/YYClassInfo.h
+Example/Pods/YYModel/YYModel/YYClassInfo.m
+MMRouter/Classes/MMURLRouter.h
+MMRouter/Classes/MMURLRouter.m
+MMRouter/Classes/MMURLRouterOpenURLHandler.h
+MMRouter/Classes/URLRouterModel.h
+MMRouter/Classes/URLRouterModel.m
+Example/Pods/Target Support Files/WWBaseLib/WWBaseLib-dummy.m
+Example/Pods/Target Support Files/WWBaseLib/WWBaseLib-prefix.pch
+Example/Pods/Target Support Files/WWBaseLib/WWBaseLib-umbrella.h
+Example/Pods/Target Support Files/WWBaseLib/WWBaseLib.modulemap
+Example/Pods/Target Support Files/WWBaseLib/WWBaseLib.xcconfig
+Example/Pods/WWBaseLib/WWBaseLib/Classes/DataHelp.h
+Example/Pods/WWBaseLib/WWBaseLib/Classes/NSInvocation+MethodIntercept.h
+Example/Pods/WWBaseLib/WWBaseLib/Classes/NSInvocation+MethodIntercept.m
+Example/Pods/WWBaseLib/WWBaseLib/Classes/NSObject+Singleton.h
+Example/Pods/WWBaseLib/WWBaseLib/Classes/NSObject+Singleton.m
+Example/Pods/WWBaseLib/WWBaseLib/Classes/UIApplication+Transition.h
+Example/Pods/WWBaseLib/WWBaseLib/Classes/UIApplication+Transition.m
+Example/Pods/WWBaseLib/WWBaseLib/Classes/UIView+Frame.h
+Example/Pods/WWBaseLib/WWBaseLib/Classes/UIView+Frame.m
