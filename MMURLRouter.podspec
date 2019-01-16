@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MMURLRouter'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'MMURLRouter is a tool for any modules.'
   s.description      = <<-DESC
     MMRouter is a tool for any modules,you can use it more easier
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.libraries               = 'Objc'
   s.dependency 'YYModel','~> 1.0.4'
   s.dependency 'YYCategories','~> 1.0.4'
-  s.dependency 'WWBaseLib','0.0.2'
+  s.dependency 'WWBaseLib'
 end
 
 

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <WWBaseLib/NSObject+Singleton.h>
+#import <WWBaseLib/NSObject+Single.h>
 #import <WWBaseLib/UIApplication+Transition.h>
 
 @protocol MMURLRouterOpenURLHandler <NSObject>
@@ -34,7 +34,7 @@ typedef void(^RouterCompleteBlock)(UIViewController * _Nullable viewController, 
 
 @end
 
-@interface MMURLRouter : NSObject<Singleton>
+@interface MMURLRouter : NSObject<Single>
 
 //试例
 //URLRouterModel * model = [URLRouterModel new];
